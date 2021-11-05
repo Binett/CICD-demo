@@ -7,12 +7,14 @@ namespace CICD_demo.tests
         [SetUp]
         public void Setup()
         {
+            
         }
 
         [Test]
         public void Test1()
         {
-            Assert.True(1 == 1);
+            Calc calc = new();
+            Assert.AreEqual(3, calc.Add(1, 2));
         }
     }
 }
