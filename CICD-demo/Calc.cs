@@ -10,7 +10,7 @@ namespace CICD_demo
     {
         public int Add(int a, int b)
         {
-            throw new NotImplementedException();
+            return a + b;
         }
     }
 }
