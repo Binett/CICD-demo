@@ -6,7 +6,7 @@ namespace CICD_demo
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello Emil!");
+            Console.WriteLine("Hello World!");
         }
     }
 }
